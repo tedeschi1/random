@@ -1,0 +1,21 @@
+import random
+
+print("Welcome to the lottery number generator!")
+print("Your lucky numbers are" + " ", end="")
+
+def lottonumbers():
+    random_number = random.randint(1, 69)
+    print(str(random_number) + ",", end="")
+lottonumbers()
+lottonumbers()
+lottonumbers()
+lottonumbers()
+lottonumbers()
+
+
+def powerball():
+    random_number = random.randint(1, 26)
+    print(" And your lucky powerball number is " + str(random_number))
+    print("Good luck!")
+
+powerball()
